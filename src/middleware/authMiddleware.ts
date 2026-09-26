@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
+import 'cookie-parser';
 import jwt from 'jsonwebtoken';
 import { supabaseService } from '../services/supabaseService.js';
 import type { UserRole } from '../types/index.js';
